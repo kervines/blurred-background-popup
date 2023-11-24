@@ -1,0 +1,35 @@
+.move-up {
+  animation: move-up 0.3s ease forwards;
+}
+.move-down {
+  animation: move-down 0.3s ease forwards;
+}
+
+@keyframes move-up {
+  0% {
+    top: 60%;
+    opacity: 0;
+  }
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes move-down {
+  0% {
+    top: 50%;
+    opacity: 1;
+  }
+  100% {
+    top: 60%;
+    opacity: 0;
+  }
+}
+
+.blur {
+  backdrop-filter: blur(5px);
+}
+.blur-container {
+  filter: blur(3px);
+}
