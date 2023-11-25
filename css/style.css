@@ -59,6 +59,7 @@ ul {
   color: #fff;
   display: grid;
   place-content: center;
+  transition: 1s;
 }
 
 .container {
