@@ -1,8 +1,8 @@
 .move-up {
-  animation: move-up 0.3s ease forwards;
+  animation: move-up 1s ease forwards;
 }
 .move-down {
-  animation: move-down 0.3s ease forwards;
+  animation: move-down 0.5s ease forwards;
 }
 
 @keyframes move-up {
